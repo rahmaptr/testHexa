@@ -23,7 +23,9 @@
 	},
 	"dependencies": {
 		"@supabase/supabase-js": "^2.93.3",
+		"@tailwindcss/vite": "^4.1.18",
 		"reflect-metadata": "^0.2.2",
+		"tailwindcss": "^4.1.18",
 		"typeorm": "^0.3.28"
 	}
 }
