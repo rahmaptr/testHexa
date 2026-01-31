@@ -1,5 +1,10 @@
 <script lang="ts">
-    const { type, placeholder } = $props();
-
+    const { name, type, placeholder } = $props();
 </script>
-<input class="border border-stone-200 rounded-xs p-1" type={type} placeholder={placeholder}/>
+
+<input
+    class="border border-stone-200 rounded-xs p-1"
+    {name}
+    {type}
+    {placeholder}
+/>

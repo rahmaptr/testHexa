@@ -22,7 +22,7 @@ npm run build
 
 ## Supabase Setup Steps
 I use **User Management Starter** from Community Quickstart SQL script (with adjustment) after setting up Access Token from my account.
-User login is using username and password
+User login is using email and password
 
 ### ENV
 ```

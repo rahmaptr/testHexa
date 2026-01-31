@@ -5,9 +5,9 @@
 
 <div class="flex flex-col gap-5 text-center">
     <h1 class="text-xl">Login to World View</h1>
-    <div class="flex flex-col gap-2">
-        <Input type="email" placeholder="Email" />
-        <Input type="password" placeholder="Password" />
-    </div>
-    <Button text="Login" isInput={true} />
+    <form class="flex flex-col gap-2" method="POST">
+        <Input name="email" type="email" placeholder="Email" />
+        <Input name="password" type="password" placeholder="Password" />
+        <Button text="Login" isInput={true} />
+    </form>
 </div>
