@@ -22,8 +22,11 @@
 		"vite": "^7.3.1"
 	},
 	"dependencies": {
+		"@supabase/ssr": "^0.8.0",
 		"@supabase/supabase-js": "^2.93.3",
+		"@tailwindcss/vite": "^4.1.18",
 		"reflect-metadata": "^0.2.2",
+		"tailwindcss": "^4.1.18",
 		"typeorm": "^0.3.28"
 	}
 }
