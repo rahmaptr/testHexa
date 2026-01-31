@@ -21,7 +21,8 @@ npm run build
 ```
 
 ## Supabase Setup Steps
-I use **User Management Starter** from Community Quicstart SQL script after setting up Access Token from my account
+I use **User Management Starter** from Community Quickstart SQL script (with adjustment) after setting up Access Token from my account.
+User login is using username and password
 
 ### ENV
 ```
@@ -30,7 +31,7 @@ PUBLIC_SUPABASE_URL=
 PUBLIC_SUPABASE_PUBLISHABLE_KEY=
 ```
 
-Source from [docs](https://supabase.com/docs/guides/getting-started/tutorials/with-sveltekit)
+Source from [here](https://supabase.com/docs/guides/getting-started/tutorials/with-sveltekit) and [here](https://supabase.com/docs/guides/auth/passwords?queryGroups=flow&flow=pkce&queryGroups=framework&framework=sveltekit)
 
 ## Libraries Used
 
