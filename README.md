@@ -1,31 +1,14 @@
-# sv
+# Test Hexa
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Technical test for Hexa Conservation by Rahmah Putri Azzahra
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-bun x sv create --template minimal --types ts --install bun .
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Run Program
 
 ```sh
 npm run dev
 
 # or start the server and open the app in a new browser tab
+
 npm run dev -- --open
 ```
 
@@ -37,6 +20,17 @@ To create a production version of your app:
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+## Supabase Setup Steps
+I use **User Management Starter** from Community Quicstart SQL script after setting up Access Token from my account
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+### ENV
+```
+SUPABASE_ACCESS_TOKEN=
+PUBLIC_SUPABASE_URL=
+PUBLIC_SUPABASE_PUBLISHABLE_KEY=
+```
+
+Source from [docs](https://supabase.com/docs/guides/getting-started/tutorials/with-sveltekit)
+
+## Libraries Used
+
